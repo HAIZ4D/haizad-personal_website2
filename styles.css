@@ -712,5 +712,44 @@ body {
   background-color: #dbd7d7;
 }
 
+/* FUTURE PLAN */
+.future-plan-section {
+  max-width: 9000px;
+  padding: 2rem 1rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.future-plan-box {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 4rem;
+}
+
+.future-plan-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.future-plan-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.future-plan-box ul li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.2rem;
+  position: relative;
+  color: #333;
+}
+
+.bg-section h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+
 
 
